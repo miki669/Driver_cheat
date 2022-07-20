@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Driver Files">
+      <UniqueIdentifier>{8E41214B-6785-4CFE-B992-037D68949A14}</UniqueIdentifier>
+      <Extensions>inf;inv;inx;mof;mc;</Extensions>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source\MemoryHelper">
+      <UniqueIdentifier>{9e9830aa-004a-48cc-bd46-ae20ceeb9451}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\NT">
+      <UniqueIdentifier>{cf2adb7a-699a-42f7-a984-aa2bc011e399}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\RustSDK">
+      <UniqueIdentifier>{4aab28f0-4f7e-4bb7-be3b-12d863466351}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\security">
+      <UniqueIdentifier>{bc328475-d6fa-4328-b97c-cdce4ef4bf7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\security\hook">
+      <UniqueIdentifier>{2d1ee96d-8992-4f38-b97c-dcfc34fb0279}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\security\clean">
+      <UniqueIdentifier>{b5f5721b-f300-4e9b-b3e2-5306e27eeb54}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DriverEntry.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryHelper.cpp">
+      <Filter>Source\MemoryHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="RustSDK.cpp">
+      <Filter>Source\RustSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="hk.cpp">
+      <Filter>Source\security\hook</Filter>
+    </ClCompile>
+    <ClCompile Include="security.cpp">
+      <Filter>Source\security\clean</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ntstructs.h">
+      <Filter>Source\NT</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryHelper.h">
+      <Filter>Source\MemoryHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="ntapi.h">
+      <Filter>Source\NT</Filter>
+    </ClInclude>
+    <ClInclude Include="RustSDK.h">
+      <Filter>Source\RustSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="hk.h">
+      <Filter>Source\security\hook</Filter>
+    </ClInclude>
+    <ClInclude Include="security.h">
+      <Filter>Source\security\clean</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="skCrypter.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
